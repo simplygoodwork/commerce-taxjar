@@ -176,12 +176,4 @@ class TaxJar implements TaxEngineInterface
     {
         return [];
     }
-    
-    /**
-     * @inheritDoc
-     */
-    public static function isSelectable(): bool
-    {
-        return false;
-    }
 }
